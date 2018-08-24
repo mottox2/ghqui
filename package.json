@@ -1,32 +1,29 @@
 {
-  "name": "electron-quick-start-typescript",
-  "version": "1.0.0",
-  "description": "A minimal Electron application written with Typescript",
+  "name": "ghqui",
+  "version": "0.1",
+  "description": "Electron based ui for ghq",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
     "lint": "tslint -c tslint.json -p tsconfig.json",
     "start": "npm run build && electron ./dist/main.js"
   },
-  "repository": "https://github.com/electron/electron-quick-start-typescript",
+  "repository": "https://github.com/mottox2/ghqui",
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo",
-    "typescript"
+    "typescript",
+    "ghq"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "@mottox2",
+  "license": "MIT",
   "devDependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "@types/react-dom": "^16.0.7",
     "electron": "^2.0.2",
     "tslint": "^5.10.0",
     "typescript": "^2.8.3"
   },
   "dependencies": {
-    "@types/es6-promise": "^3.3.0",
-    "@types/react-dom": "^16.0.7",
     "cross-spawn-with-kill": "^1.0.0",
     "react": "^16.4.2",
     "react-dev-utils": "^5.0.2",
