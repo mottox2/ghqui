@@ -25,7 +25,9 @@
     "typescript": "^2.8.3"
   },
   "dependencies": {
+    "@types/es6-promise": "^3.3.0",
     "@types/react-dom": "^16.0.7",
+    "cross-spawn-with-kill": "^1.0.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   }
